@@ -1,4 +1,5 @@
 # nft-image-generator
+
 A simple image generator for creating collections of images, similar to those used in NFTs
 
 ## Dependencies
@@ -16,8 +17,13 @@ A simple image generator for creating collections of images, similar to those us
   - Look under `examples/layers` to see what the folder should look like.
 - Run `python3 main.py` to run the program, and answer the prompts to generate your images!
 
-## Optional - Create PDF of all Images
+## Optional - Create PDF of all images
 
 - `pip3 install img2pdf`
 - `python3 pdf-out.py`
 - Check out `out/generated_images.pdf`!
+
+## Optional - Rename your generated images numerically
+
+- This feature allows all files to be renamed to 1.png, 2.png, ..., etc.
+- Simply run `python3 number-out-images.py`
